@@ -24,3 +24,13 @@ python3 src/analytics.py data/sample_tasks.csv
 ```
 
 This will output simple metrics to the console.
+
+## Web interface
+
+You can also start a simple web server to view the metrics in a browser:
+
+```bash
+python3 src/webapp.py data/sample_tasks.csv
+```
+
+Then open `http://localhost:8000` to see the metrics rendered as an HTML page.
